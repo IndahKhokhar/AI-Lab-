@@ -1,0 +1,380 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/win8.1/ontologies/2017/3/untitled-ontology-7"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/win8.1/ontologies/2017/3/untitled-ontology-7">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#API"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Activities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Advanced_Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antenna_Assortment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bluetooth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Broadcast_Receiver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Camera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Code_Offload_Mechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Connection_with_LED_TV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content_Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cupcake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disable_Unwanted_Apps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Donut"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eclair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Face_Unlock_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Features"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Font"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Froyo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GPS_Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gingerbread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Google_Android"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Google_Now"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Honeycomb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ice_Cream_Sandwich"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input_Functionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jelly_Bean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joystick_With_Phone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KitKat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Levels"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Live_Wallpaper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Logo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lollipop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_Components"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marshmallow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Messaging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Music"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NDK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Near_Feild_Communication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nougat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Power_Modules_Functionality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Screenshots"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Services"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Shape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Syncing_Apps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Task_Switcher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Updation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Versions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web-Browsing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wi-Fi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wi-Fi_Performance"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Activities"/>
+        <Class IRI="#Main_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alram"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antenna_Assortment"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bluetooth"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broadcast_Receiver"/>
+        <Class IRI="#Main_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Camera"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Code_Offload_Mechanism"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Color"/>
+        <Class IRI="#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Connection_with_LED_TV"/>
+        <Class IRI="#Advanced_Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Content_Provider"/>
+        <Class IRI="#Main_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cupcake"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disable_Unwanted_Apps"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Donut"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eclair"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Face_Unlock_Feature"/>
+        <Class IRI="#Advanced_Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Font"/>
+        <Class IRI="#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Froyo"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GPS_Performance"/>
+        <Class IRI="#Power_Modules_Functionality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gingerbread"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Google_Now"/>
+        <Class IRI="#Advanced_Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeycomb"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ice_Cream_Sandwich"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input_Functionality"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jelly_Bean"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joystick_With_Phone"/>
+        <Class IRI="#Advanced_Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KitKat"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Levels"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Live_Wallpaper"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Logo"/>
+        <Class IRI="#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lollipop"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marshmallow"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Messaging"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Music"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NDK"/>
+        <Class IRI="#API"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Near_Feild_Communication"/>
+        <Class IRI="#Advanced_Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nougat"/>
+        <Class IRI="#Versions"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Screenshots"/>
+        <Class IRI="#Advanced_Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Services"/>
+        <Class IRI="#Main_Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Shape"/>
+        <Class IRI="#Design"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syncing_Apps"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Task_Switcher"/>
+        <Class IRI="#Advanced_Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Updation"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web-Browsing"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wi-Fi"/>
+        <Class IRI="#Features"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wi-Fi_Performance"/>
+        <Class IRI="#Power_Modules_Functionality"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
